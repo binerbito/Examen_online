@@ -3,14 +3,14 @@
 
   <pregunta id='profe001'>
     <tipus>text</tipus>
-    <text>Extensió d'un fitxer full d'estill</text>
-    <resposta>css</resposta>
+    <text>Color del cavall blanc del rei Jaume 1</text>
+    <resposta>Blanc</resposta>
   </pregunta>
 
   <pregunta id='profe002'>
     <tipus>text</tipus>
-    <text>Quin és nom de l'element arrel d'un document html?</text>
-    <resposta>html</resposta>
+    <text>Quin nom te el ca den Tintin?</text>
+    <resposta>Milú</resposta>
   </pregunta>
 
 
@@ -21,7 +21,7 @@
     <opcio>Carn</opcio>
     <opcio>Peix</opcio> 
     <opcio>Res, està mort</opcio>
-    <resposta>2</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+    <resposta>2</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opció -->
   </pregunta>
 
   <pregunta id='profe004'>
@@ -30,7 +30,7 @@
     <opcio>Carn</opcio>
     <opcio>Peix</opcio> 
     <opcio>Res, està mort</opcio>
-    <resposta>2</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+    <resposta>2</resposta> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opció -->
   </pregunta>
 
 
