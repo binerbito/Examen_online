@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
-
-  <question id="mlag_001">
-    <type>select</type>
-    <title>De quin color son les freses</title>
-    <option>Groges</option>
-    <option>Verdes</option> 
-    <option>Vemelles</option>
+    <question id="mlag_001">
+        <type>select</type>
+        <title>De quin color son les freses</title>
+        <option>Groges</option>
+        <option>Verdes</option> 
+        <option>Vemelles</option>
     <answer>2</answer> <!--2 vol dir la tercera opció -->
   </question>
 
