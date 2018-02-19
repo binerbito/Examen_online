@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions [<!ELEMENT questions ( question+ ) >
+<!ELEMENT question ( type, title, option*, answer+ ) >
+<!ATTLIST question id CDATA #REQUIRED >
+<!ELEMENT type (#PCDATA|text|select|multiple|checkbox|radio)* >
+<!ELEMENT title ( #PCDATA ) >
+<!ELEMENT option ( #PCDATA ) >
+<!ELEMENT answer ( #PCDATA ) >]>
 
-<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+<questions>
 
   <question id="mlag_001">
     <type>select</type>
@@ -46,8 +53,8 @@
  <question id="mlag_006">
     <type>checkbox</type>
     <title>Un Sargent del exercít de terra te més rang que un?</title>
-    <option>ciuteda</option>
     <option>nin</option>
+    <option>cabo</option>
     <option>Soldat</option>
     <option>Tinent</option>
     <option>Coronel</option>
@@ -74,9 +81,10 @@
     <option>Febrer</option> 
     <option>Dijous</option>
     <answer>3</answer>
-  </question>
+  </question> 
+
   <question id="mlag_009">
-    <tipus>select multiple</tipus>
+    <type>multiple</type>
     <title>Marca tots els animals</title>
     <option>Moto</option>
     <option>Cotxe</option>
@@ -85,8 +93,8 @@
     <answer>3</answer>
   </question>
 
-  <question id="mlag_010">
-   <tipus>select multiple</tipus>
+ <question id="mlag_010">
+   <type>multiple</type>
     <title>Marca els noms mes coneguts</title>
     <option>Miquel</option>
     <option>Kentonito</option>
@@ -94,5 +102,5 @@
     <option>Toni</option>
     <answer>0</answer>
     <answer>3</answer>
-  </question>
+ </question>
 </questions>
