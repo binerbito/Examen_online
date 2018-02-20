@@ -84,7 +84,7 @@
   </question> 
 
   <question id="mlag_009">
-    <type>multiple</type>
+    <type>select multiple</type>
     <title>Marca tots els animals</title>
     <option>Moto</option>
     <option>Cotxe</option>
@@ -94,7 +94,7 @@
   </question>
 
  <question id="mlag_010">
-   <type>multiple</type>
+   <type>selec multiple</type>
     <title>Marca els noms mes coneguts</title>
     <option>Miquel</option>
     <option>Kentonito</option>
