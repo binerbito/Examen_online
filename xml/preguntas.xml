@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE questions [<!ELEMENT questions ( question+ ) >
-<!ELEMENT question ( type, title, option*, answer+ ) >
-<!ATTLIST question id CDATA #REQUIRED >
-<!ELEMENT type (#PCDATA|text|select|multiple|checkbox|radio)* >
-<!ELEMENT title ( #PCDATA ) >
-<!ELEMENT option ( #PCDATA ) >
-<!ELEMENT answer ( #PCDATA ) >]>
-
-<questions>
-
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
   <question id="mlag_001">
     <type>select</type>
     <title>De quin color son les freses</title>
@@ -18,7 +9,7 @@
     <answer>2</answer> <!--2 vol dir la tercera opció -->
   </question>
 
- <question id="mlag_002">
+  <question id="mlag_002">
     <type>select</type>
     <title>Un lleó mort de fam, qué menja?</title>
     <option>Res, està mort</option>
@@ -49,8 +40,8 @@
     <answer>0</answer>
     <answer>2</answer>
   </question>
- 
- <question id="mlag_006">
+
+  <question id="mlag_006">
     <type>checkbox</type>
     <title>Un Sargent del exercít de terra te més rang que un?</title>
     <option>nin</option>
@@ -93,8 +84,8 @@
     <answer>3</answer>
   </question>
 
- <question id="mlag_010">
-   <type>selec multiple</type>
+  <question id="mlag_010">
+    <type>select multiple</type>
     <title>Marca els noms mes coneguts</title>
     <option>Miquel</option>
     <option>Kentonito</option>
@@ -102,5 +93,5 @@
     <option>Toni</option>
     <answer>0</answer>
     <answer>3</answer>
- </question>
+  </question>
 </questions>
