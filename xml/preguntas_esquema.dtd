@@ -1,7 +1,106 @@
-<!ELEMENT questions ( question+ ) >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions [<!ELEMENT questions ( question+ ) >
 <!ELEMENT question ( type, title, option*, answer+ ) >
 <!ATTLIST question id CDATA #REQUIRED >
 <!ELEMENT type (#PCDATA|text|select|multiple|checkbox|radio)* >
 <!ELEMENT title ( #PCDATA ) >
 <!ELEMENT option ( #PCDATA ) >
-<!ELEMENT answer ( #PCDATA ) >
+<!ELEMENT answer ( #PCDATA ) >]>
+
+<questions>
+
+  <question id="mlag_001">
+    <type>select</type>
+    <title>De quin color son les freses</title>
+    <option>Groges</option>
+    <option>Verdes</option> 
+    <option>Vemelles</option>
+    <answer>2</answer> <!--2 vol dir la tercera opció -->
+  </question>
+
+ <question id="mlag_002">
+    <type>select</type>
+    <title>Un lleó mort de fam, qué menja?</title>
+    <option>Res, està mort</option>
+    <option>Carn</option>
+    <option>Peix</option> 
+    <answer>0</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opció -->
+  </question>
+
+  <question id="mlag_003">
+    <type>text</type>
+    <title>Quans de paisos formen la UE</title>
+    <answer>28</answer>
+  </question>
+
+  <question id="mlag_004">
+    <type>text</type>
+    <title>Quantes comunitats autonomes te Espanya?</title>
+    <answer>17</answer>
+  </question>
+
+  <question id="mlag_005">
+    <type>checkbox</type>
+    <title>Els peixos viven dins?</title>
+    <option>Aigua salada</option>
+    <option>Oli</option>
+    <option>Aigua dolça</option>
+    <option>Vinagre</option>
+    <answer>0</answer>
+    <answer>2</answer>
+  </question>
+ 
+ <question id="mlag_006">
+    <type>checkbox</type>
+    <title>Un Sargent del exercít de terra te més rang que un?</title>
+    <option>nin</option>
+    <option>cabo</option>
+    <option>Soldat</option>
+    <option>Tinent</option>
+    <option>Coronel</option>
+    <answer>0</answer>
+    <answer>1</answer>     
+    <answer>2</answer>
+  </question>
+
+  <question id="mlag_007">
+    <type>radio</type>
+    <title>De quin colors poden ser les pomes</title>
+    <option>Cel</option>
+    <option>Vermella</option> 
+    <option>Negra</option> 
+    <option>Marron</option>
+    <answer>1</answer>
+  </question>
+
+  <question id="mlag_008">
+    <type>radio</type>
+    <title>Marca els dies de la setmana?</title>
+    <option>Gener</option>
+    <option>Maig</option> 
+    <option>Febrer</option> 
+    <option>Dijous</option>
+    <answer>3</answer>
+  </question> 
+
+  <question id="mlag_009">
+    <type>select multiple</type>
+    <title>Marca tots els animals</title>
+    <option>Moto</option>
+    <option>Cotxe</option>
+    <option>Carro</option>
+    <option>Camell</option>
+    <answer>3</answer>
+  </question>
+
+ <question id="mlag_010">
+   <type>selec multiple</type>
+    <title>Marca els noms mes coneguts</title>
+    <option>Miquel</option>
+    <option>Kentonito</option>
+    <option>Mercolato</option>
+    <option>Toni</option>
+    <answer>0</answer>
+    <answer>3</answer>
+ </question>
+</questions>
