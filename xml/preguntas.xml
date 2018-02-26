@@ -3,7 +3,7 @@
   <question id="mlag_001">
     <type>select</type>
     <title>De quin color son les freses</title>
-    <option> </option>
+    <option>_</option>
     <option>Groges</option>
     <option>Vermelles</option> 
     <option>Verdes</option>
@@ -13,7 +13,7 @@
   <question id="mlag_002">
     <type>select</type>
     <title>Un lleó mort de fam, qué menja?</title>
-    <option> </option>
+    <option>_</option>
     <option>Res, està mort</option>
     <option>Carn</option>
     <option>Peix</option> 
