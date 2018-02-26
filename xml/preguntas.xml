@@ -73,5 +73,26 @@
     <option>Dijous</option>
     <answer>3</answer>
   </question> 
+  
+  <question id="mlag_009">
+    <type>select multiple</type>
+    <title>Marca tots els animals</title>
+    <option>Moto</option>
+    <option>Cotxe</option>
+    <option>Carro</option>
+    <option>Camell</option>
+    <answer>3</answer>
+  </question>
+
+  <question id="mlag_010">
+    <type>select multiple</type>
+    <title>Marca els noms mes coneguts</title>
+    <option>Miquel</option>
+    <option>Kentonito</option>
+    <option>Mercolato</option>
+    <option>Toni</option>
+    <answer>0</answer>
+    <answer>3</answer>
+  </question>
 
  </questions>
